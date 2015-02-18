@@ -31,3 +31,6 @@ cacheSolve <- function(x, ...) {
 	x$setinv(inv_m)
 	return(inv_m)
 }
+## Special thanks to aamarcha, Stackoverflow Question #23796316,23743150
+## and Become Great at R (How to Cache a Matrix Inverson in R)
+## Also thanks to Purplemath.com who helped me understand What an Inverse Matrix was.
